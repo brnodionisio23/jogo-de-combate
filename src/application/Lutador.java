@@ -17,6 +17,7 @@ public class Lutador {
     public void status() {
         System.out.println("----------------------------------------");
         System.out.println("Nome: " + this.nome);
+        System.out.println("Categoria: " + this.categoria);
         System.out.println("Vitorias: " + this.vitorias);
         System.out.println("Derrotas: " + this.derrotas);
         System.out.println("Empates: " + this.empates);
